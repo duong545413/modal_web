@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+body{
+    background: url();
+    height: 100%;
+}
+
+.close{
+    display: none;
+}
+
+.bg{
+    background: url(/asset/img/onepage_restaurant.jpg) center / cover no-repeat;
+    min-height: 100%;
+    position: relative;
+}
+
+h2{
+    position: absolute;
+    color: #fff;
+    font-size: 6.5rem;
+    font-weight: normal;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.content{
+    position: absolute;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: normal;
+    bottom: 0;
+    left: 15px;
+}
+
+h3{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: normal;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding: 12px;
+}
+
+a{
+    color: #fff;
+}
+
+.menu{
+    position: absolute;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.contact{
+    position: absolute;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container{
+    background-color: #fff;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1{
+    background-color: #000;
+    color: #fff;
+    padding: 0.15px 16px;
+    margin: 10px 0;
+    font-size: 3.5rem;
+    line-height: 74px;
+    font-weight: normal;
+    position: relative;
+}
+
+.container i{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1rem;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.container h5{
+    background-color: #fff;
+    color: #000;
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+input{
+    width: 100%;
+    padding: 16px 8px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contact button{
+    background-color: #fff;
+    width: 100%;
+    padding: 16px 8px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+form{
+    padding: 0.15px 16px;
+}
+
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.24px 16px;
+    max-width: 152px;
+}
+
+.modal button{
+    background-color: #000;
+    color: #fff;
+    font-size: 2.4rem;
+    margin: 12px 0;
+    padding: 8px 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    cursor: pointer;
+}
