@@ -20,7 +20,7 @@ body{
 }
 
 .bg{
-    background: url('../asset/img/onepage_restaurant.jpg') center / cover no-repeat;
+    background: url(https://www.w3schools.com/w3images/onepage_restaurant.jpg) center / cover no-repeat;
     min-height: 100%;
     position: relative;
 }
